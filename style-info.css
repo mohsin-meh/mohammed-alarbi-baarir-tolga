@@ -1,0 +1,93 @@
+/* General Resets and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* استخدام خط حديث وجمالي */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #e9ecef; /* لون خلفية أفتح وأكثر حداثة */
+    color: #333;
+    line-height: 1.6;
+    direction: rtl; /* Ensures proper RTL layout for Arabic */
+}
+
+.container {
+    width: 90%; /* مساحة أكبر للمحتوى على الشاشات الكبيرة */
+    max-width: 1200px; /* تحديد أقصى عرض */
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #0057b3;
+    transition: color 0.3s ease; /* تأثير انتقال ناعم لتغيير اللون */
+    position: relative;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+/* Header Styling */
+header {
+    background: #176dc9; /* أزرق داكن جذاب */
+    color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* إضافة ظل للرأس */
+}
+
+header h1 {
+    float: right;
+    margin: 0;
+    font-size: 1.8rem; /* حجم خط مناسب للشعار */
+}
+
+header nav {
+    float: left;
+    margin-top: 5px; /* محاذاة أفضل مع الشعار */
+}
+
+header nav a {
+    color: #ffffff;
+    padding: 10px 15px;
+    margin-left: 5px;
+    border-radius: 5px; /* زوايا مدورة أكثر */
+    transition: background-color 0.3s ease; /* تأثير انتقال ناعم للخلفية */
+}
+
+header nav a:hover {
+    background: #0057b3fb; /* لون أغمق عند المرور */
+}
+
+/* Main Content and News Cards Styling */
+main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h2 {
+    color: #3e3e47;
+    border-bottom: 3px solid #9c599c; /* خط سفلي أكثر بروزاً */
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+}
+ a {
+    color:white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+ }
